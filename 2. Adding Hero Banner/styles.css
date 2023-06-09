@@ -1,0 +1,134 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+.sticky-header .logo {
+  display: inline-block;
+  padding: 10px;
+}
+.sticky-header .logo img {
+  height: 40px;
+  vertical-align: middle;
+}
+.sticky-header .action-links {
+  display: inline-block;
+  float: right;
+  padding: 10px;
+}
+.sticky-header .action-links a {
+  margin-right: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+.sticky-header .action-links a:last-child {
+  margin-right: 0;
+}
+.sticky-header .action-links .phone-icon {
+  color: #ff0000;
+}
+.sticky-header .action-links .email-icon {
+  color: #ff0000;
+}
+.sticky-header .action-links .whatsapp-icon {
+  color: #25d366;
+}
+
+/* banner */
+.banner-section {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.banner-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.siilc.edu.in/wp-content/uploads/2019/08/New-home-banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(80%);
+}
+
+.banner-content {
+  margin: 40px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.left-section {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 50px;
+  color: #ffffff;
+}
+
+.left-section h2 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.left-section h1 {
+  font-size: 90px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.right-section {
+  flex: 0.5;
+  gap: 16px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.right-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+.form-group {
+  display: grid;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
