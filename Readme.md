@@ -1,4 +1,4 @@
-# Prompts for generating [MITWPU](https://admissions.mitwpu.edu.in) page
+# Prompts for generating webpage
 
 ## Creating the header
 
@@ -72,7 +72,7 @@ https://i.ibb.co/HzdVGcS/siilc-sample-1.png
 
 Wow! That worked for us first try! 
 
-> Note: In this section we used the images hosted on the [admissions.mitwpu.edu.in](https://admissions.mitwpu.edu.in). 
+> Note: In this section we used the images hosted on the [siilc.edu.in](https://siilc.edu.in). 
 > Also, by this point, we saw ChatGPT reusing class names or id names. so we suggested it to redo the prompt by being more specific using the "`>`" css selector
 
 ## Adding the courses section
