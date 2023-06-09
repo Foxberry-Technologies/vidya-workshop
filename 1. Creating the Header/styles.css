@@ -1,0 +1,42 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+.sticky-header .logo {
+  display: inline-block;
+  padding: 10px;
+}
+.sticky-header .logo img {
+  height: 40px;
+  vertical-align: middle;
+}
+.sticky-header .action-links {
+  display: inline-block;
+  float: right;
+  padding: 10px;
+}
+.sticky-header .action-links a {
+  margin-right: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+.sticky-header .action-links a:last-child {
+  margin-right: 0;
+}
+.sticky-header .action-links .phone-icon {
+  color: #ff0000;
+}
+.sticky-header .action-links .email-icon {
+  color: #ff0000;
+}
+.sticky-header .action-links .whatsapp-icon {
+  color: #25d366;
+}
